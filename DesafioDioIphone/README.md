@@ -1,2 +1,2 @@
-## Desafio DIO Iphone2007 com aas funções básicas
+## Desafio DIO Iphone2007 com as funções básicas
 
