@@ -1,4 +1,4 @@
-package LabPadroesProjetoJava;
+package LabPadroesProjetoJavaSingleton;
 
 public class SingletonLazyHolder {
 
