@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "labPadroesProjetoJavaFacade.Test",
+            "projectName": "Design_Patterns_Java_GoF_Spring_Framework_22e4c599"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
