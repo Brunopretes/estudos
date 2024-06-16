@@ -1,9 +1,9 @@
 #Santander Dev Week #
 Java RESTful API criada para a Santander Dev Week.
 
-## Diagrama de classes
+## Diagrama d classes
 
-```mermaid
+```Mermaid
 
 classDiagram
     class User {
@@ -15,7 +15,7 @@ classDiagram
     }
 
     class Account {
-        -String Number
+        -String tNumber
         -float Balance
         -float Limit
     }
@@ -36,7 +36,7 @@ classDiagram
     }
 
     User "1" *-- "1" Account
-    User "1" *-- "N" Feature
+    User "1" *-- "0..*" Feature
     User "1" *-- "1" Card
-    User "1" *-- "N" News
+    User "1" *-- "0..*" News
 ```
